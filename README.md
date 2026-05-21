@@ -1,4 +1,4 @@
-<img width="2008" height="1933" alt="comparison (1)" src="https://github.com/user-attachments/assets/44ea0047-51c5-45a2-b433-f20b0cc6db8a" /># UAD
+# UAD
 A PyTorch implementation of UAD, a unified framework for zero-shot anomaly detection (ZSAD) that identifies and localizes anomalies in unseen target domains without requiring any target-domain training data.
 
 # Introduction
