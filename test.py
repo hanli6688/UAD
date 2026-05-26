@@ -61,7 +61,7 @@ def test(args):
         prompting_type=args.prompting_type,
         use_hsf=args.use_hsf,
         k_clusters=args.k_clusters,
-        use_idag=False   # 测试阶段关闭
+        use_idag=False   
     ).to(device)
 
     model.load(args.ckt_path)
@@ -160,7 +160,7 @@ def test(args):
 
 
 # =========================================================
-# UAD Evaluation (核心区别)
+# UAD Evaluation 
 # =========================================================
 @torch.no_grad()
 def evaluate_uad(model, dataloader, cls_names, image_dir, save_fig=False):
